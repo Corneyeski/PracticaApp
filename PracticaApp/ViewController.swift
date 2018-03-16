@@ -31,6 +31,8 @@ class ViewController: UIViewController {
             
             if userFunctions.login(name: name.text!, password: password.text!, managedContext: managedContext) {
                 entrar.sendActions(for: .touchUpInside)
+            }else {
+                print("error")
             }
             
             /*user.name = name.text

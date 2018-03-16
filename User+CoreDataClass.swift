@@ -86,7 +86,7 @@ public class User: NSManagedObject {
         do{
             let result = try! managedContext.fetch(fetchRequest)
             
-            if result.count == 1 {
+            if result.count > 0 {
                 return true
             }else {
                 return false
