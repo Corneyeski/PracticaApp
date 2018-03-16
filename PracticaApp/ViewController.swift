@@ -7,19 +7,50 @@
 //
 
 import UIKit
+import CoreData
+
 
 class ViewController: UIViewController {
 
+    var userFunctions:User = User();
+    
+    var managedContext:NSManagedObjectContext!
+    let appDelegate = UIApplication.shared.delegate as? AppDelegate
+
+    @IBOutlet weak var entrar: UIButton!
+    
+    
+    @IBOutlet weak var name: UITextField!
+    @IBOutlet weak var password: UITextField!
+    
+    @IBAction func login(_ sender: Any) {
+        
+        if name.text != "" && password.text != "" {
+            
+            //let s:User = User(nombre: "aa", pass: "aa")
+            
+            if userFunctions.login(name: name.text!, password: password.text!, managedContext: managedContext) {
+                entrar.sendActions(for: .touchUpInside)
+            }
+            
+            /*user.name = name.text
+            user.password = password.text
+            
+            if userFunctions.login(user: user) {
+                
+            }else{
+                
+            }*/
+        }
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        managedContext = appDelegate?.persistentContainer.viewContext
+        
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

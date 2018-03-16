@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33A724A020530F8D00BCC602 /* RegistroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A7249F20530F8D00BCC602 /* RegistroController.swift */; };
+		33DDE1E4205C39E6009B9EBB /* Gender+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DDE1E2205C39E6009B9EBB /* Gender+CoreDataClass.swift */; };
+		33DDE1E5205C39E6009B9EBB /* Gender+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DDE1E3205C39E6009B9EBB /* Gender+CoreDataProperties.swift */; };
+		33DDE1E8205C3F39009B9EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33DDE1E6205C3F39009B9EBB /* Main.storyboard */; };
+		33DDE1EA205C43D0009B9EBB /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DDE1E9205C43D0009B9EBB /* ListController.swift */; };
+		33DDE1EC205C450E009B9EBB /* CellGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DDE1EB205C450E009B9EBB /* CellGender.swift */; };
 		33F260A42049C8B30072370C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F260A32049C8B30072370C /* AppDelegate.swift */; };
 		33F260A62049C8B30072370C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F260A52049C8B30072370C /* ViewController.swift */; };
-		33F260A92049C8B30072370C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F260A72049C8B30072370C /* Main.storyboard */; };
 		33F260AC2049C8B30072370C /* PracticaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33F260AA2049C8B30072370C /* PracticaApp.xcdatamodeld */; };
 		33F260AE2049C8B30072370C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F260AD2049C8B30072370C /* Assets.xcassets */; };
 		33F260B12049C8B30072370C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F260AF2049C8B30072370C /* LaunchScreen.storyboard */; };
+		33F260BC2049CF4F0072370C /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F260B82049CF4F0072370C /* User+CoreDataClass.swift */; };
+		33F260BD2049CF4F0072370C /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F260B92049CF4F0072370C /* User+CoreDataProperties.swift */; };
+		33F260BE2049CF4F0072370C /* Show+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F260BA2049CF4F0072370C /* Show+CoreDataClass.swift */; };
+		33F260BF2049CF4F0072370C /* Show+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F260BB2049CF4F0072370C /* Show+CoreDataProperties.swift */; };
+		33F260C12049D1140072370C /* CoreDataGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F260C02049D1140072370C /* CoreDataGeneric.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33A7249F20530F8D00BCC602 /* RegistroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroController.swift; sourceTree = "<group>"; };
+		33DDE1E2205C39E6009B9EBB /* Gender+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gender+CoreDataClass.swift"; sourceTree = "<group>"; };
+		33DDE1E3205C39E6009B9EBB /* Gender+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gender+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		33DDE1E7205C3F39009B9EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33DDE1E9205C43D0009B9EBB /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		33DDE1EB205C450E009B9EBB /* CellGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellGender.swift; sourceTree = "<group>"; };
 		33F260A02049C8B30072370C /* PracticaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F260A32049C8B30072370C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33F260A52049C8B30072370C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		33F260A82049C8B30072370C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33F260AB2049C8B30072370C /* PracticaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PracticaApp.xcdatamodel; sourceTree = "<group>"; };
 		33F260AD2049C8B30072370C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33F260B02049C8B30072370C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33F260B22049C8B30072370C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F260B82049CF4F0072370C /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		33F260B92049CF4F0072370C /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		33F260BA2049CF4F0072370C /* Show+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show+CoreDataClass.swift"; sourceTree = "<group>"; };
+		33F260BB2049CF4F0072370C /* Show+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		33F260C02049D1140072370C /* CoreDataGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataGeneric.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +60,12 @@
 		33F260972049C8B30072370C = {
 			isa = PBXGroup;
 			children = (
+				33DDE1E2205C39E6009B9EBB /* Gender+CoreDataClass.swift */,
+				33DDE1E3205C39E6009B9EBB /* Gender+CoreDataProperties.swift */,
+				33F260B82049CF4F0072370C /* User+CoreDataClass.swift */,
+				33F260B92049CF4F0072370C /* User+CoreDataProperties.swift */,
+				33F260BA2049CF4F0072370C /* Show+CoreDataClass.swift */,
+				33F260BB2049CF4F0072370C /* Show+CoreDataProperties.swift */,
 				33F260A22049C8B30072370C /* PracticaApp */,
 				33F260A12049C8B30072370C /* Products */,
 			);
@@ -56,13 +82,17 @@
 		33F260A22049C8B30072370C /* PracticaApp */ = {
 			isa = PBXGroup;
 			children = (
+				33DDE1E6205C3F39009B9EBB /* Main.storyboard */,
+				33DDE1EB205C450E009B9EBB /* CellGender.swift */,
 				33F260A32049C8B30072370C /* AppDelegate.swift */,
 				33F260A52049C8B30072370C /* ViewController.swift */,
-				33F260A72049C8B30072370C /* Main.storyboard */,
+				33A7249F20530F8D00BCC602 /* RegistroController.swift */,
 				33F260AD2049C8B30072370C /* Assets.xcassets */,
 				33F260AF2049C8B30072370C /* LaunchScreen.storyboard */,
 				33F260B22049C8B30072370C /* Info.plist */,
 				33F260AA2049C8B30072370C /* PracticaApp.xcdatamodeld */,
+				33F260C02049D1140072370C /* CoreDataGeneric.swift */,
+				33DDE1E9205C43D0009B9EBB /* ListController.swift */,
 			);
 			path = PracticaApp;
 			sourceTree = "<group>";
@@ -126,9 +156,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33DDE1E8205C3F39009B9EBB /* Main.storyboard in Resources */,
 				33F260B12049C8B30072370C /* LaunchScreen.storyboard in Resources */,
 				33F260AE2049C8B30072370C /* Assets.xcassets in Resources */,
-				33F260A92049C8B30072370C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,19 +169,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F260C12049D1140072370C /* CoreDataGeneric.swift in Sources */,
+				33F260BE2049CF4F0072370C /* Show+CoreDataClass.swift in Sources */,
+				33DDE1E4205C39E6009B9EBB /* Gender+CoreDataClass.swift in Sources */,
 				33F260A62049C8B30072370C /* ViewController.swift in Sources */,
 				33F260AC2049C8B30072370C /* PracticaApp.xcdatamodeld in Sources */,
+				33F260BC2049CF4F0072370C /* User+CoreDataClass.swift in Sources */,
+				33F260BF2049CF4F0072370C /* Show+CoreDataProperties.swift in Sources */,
+				33DDE1E5205C39E6009B9EBB /* Gender+CoreDataProperties.swift in Sources */,
+				33F260BD2049CF4F0072370C /* User+CoreDataProperties.swift in Sources */,
+				33A724A020530F8D00BCC602 /* RegistroController.swift in Sources */,
+				33DDE1EC205C450E009B9EBB /* CellGender.swift in Sources */,
 				33F260A42049C8B30072370C /* AppDelegate.swift in Sources */,
+				33DDE1EA205C43D0009B9EBB /* ListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		33F260A72049C8B30072370C /* Main.storyboard */ = {
+		33DDE1E6205C3F39009B9EBB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				33F260A82049C8B30072370C /* Base */,
+				33DDE1E7205C3F39009B9EBB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
