@@ -30,7 +30,21 @@ class ListController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         managedContext = appDelegate?.persistentContainer.viewContext
         
-        gender.getAll(managedContext: managedContext)
+        if (gender.getAll(managedContext: managedContext)?.isEmpty)! {
+            
+            let generosIcon:[String] = ["cf.gif","drama.gif","manga.gif","sa.jpg","humor.jpg","terror.jpg"];
+            let generosName = ["ciencia ficcion", "drama", "anime", "series para adultos", "humor", "terror"]
+            
+            for index in 0...generosIcon.count {
+                
+                print(index)
+                
+                gender.insert(icon: try! NSData(contentsOfFile: generosIcon[index]), name: generosName[index], managedContext: managedContext)
+            }
+            
+        }else{
+            
+        }
     }
 
 }
