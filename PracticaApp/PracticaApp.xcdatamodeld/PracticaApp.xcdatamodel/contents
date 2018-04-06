@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G1212" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Gender" representedClassName=".Gender" syncable="YES">
+    <entity name="Gender" representedClassName="Gender" syncable="YES">
         <attribute name="icon" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="shows" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Show" inverseName="gender" inverseEntity="Show" syncable="YES"/>
@@ -25,7 +25,7 @@
         <relationship name="subscribed" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Show" inverseName="subscribers" inverseEntity="Show" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Gender" positionX="-432" positionY="63" width="128" height="88"/>
+        <element name="Gender" positionX="-432" positionY="63" width="128" height="90"/>
         <element name="Show" positionX="-128" positionY="324" width="128" height="165"/>
         <element name="User" positionX="216" positionY="126" width="128" height="148"/>
     </elements>

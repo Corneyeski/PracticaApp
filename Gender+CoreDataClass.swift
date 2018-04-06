@@ -34,25 +34,25 @@ public class Gender: NSManagedObject {
         return false
     }
     
-    func getAll(managedContext:NSManagedObjectContext) -> [Gender]? {
+    func getAll(managedContext:NSManagedObjectContext) {
         
         let fetchRequest = NSFetchRequest<Gender>(entityName: "Gender")
-        //fetchRequest.predicate = NSPredicate(format: "name == %@ and password == %@")
+        fetchRequest.predicate = NSPredicate(format: "name != nil")
         
         do{
             //let result = try! managedContext.fetch(fetchRequest)
             
-            let result = try! managedContext.fetch(fetchRequest) as [Gender]
+            let result = try managedContext.fetch(fetchRequest)
             
             if result.count > 0 {
-                return nil
+                //return nil
             }else {
-                return nil
+                //return nil
             }
             
         }catch let error as NSError {
             print("Error al obtener los datos \(error)")
-            return nil
+            //return nil
         }
     }
     

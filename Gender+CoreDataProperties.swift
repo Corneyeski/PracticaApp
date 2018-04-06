@@ -2,7 +2,7 @@
 //  Gender+CoreDataProperties.swift
 //  PracticaApp
 //
-//  Created by DAM on 16/3/18.
+//  Created by DAM on 6/4/18.
 //  Copyright © 2018 DAM. All rights reserved.
 //
 //
